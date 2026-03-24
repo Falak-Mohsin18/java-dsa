@@ -4,6 +4,13 @@ public class ColNoFixed {
                     {1,2,3,4},//0th index
                     {5,6}, //1st index
                     {7,8,9} //2nd index
+            };
+
+            for (int row = 0 ; row<arr.length;row++){
+                for (int col = 0 ; col<arr[row].length;col++){
+                    System.out.print(arr[row][col] + " ");
+                }
+                System.out.println();
             }
     }
 }
